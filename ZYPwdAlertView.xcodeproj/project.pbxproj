@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		206976311EEBCD0D004C32E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 206976301EEBCD0D004C32E8 /* main.m */; };
+		206976341EEBCD0D004C32E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 206976331EEBCD0D004C32E8 /* AppDelegate.m */; };
+		206976371EEBCD0D004C32E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 206976361EEBCD0D004C32E8 /* ViewController.m */; };
+		2069763A1EEBCD0D004C32E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 206976381EEBCD0D004C32E8 /* Main.storyboard */; };
+		2069763D1EEBCD0E004C32E8 /* ZYPwdAlertView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2069763B1EEBCD0D004C32E8 /* ZYPwdAlertView.xcdatamodeld */; };
+		2069763F1EEBCD0E004C32E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2069763E1EEBCD0E004C32E8 /* Assets.xcassets */; };
+		206976421EEBCD0E004C32E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 206976401EEBCD0E004C32E8 /* LaunchScreen.storyboard */; };
+		2069764D1EEBCD0E004C32E8 /* ZYPwdAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2069764C1EEBCD0E004C32E8 /* ZYPwdAlertViewTests.m */; };
+		206976581EEBCD0F004C32E8 /* ZYPwdAlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 206976571EEBCD0F004C32E8 /* ZYPwdAlertViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		206976491EEBCD0E004C32E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 206976241EEBCD0C004C32E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2069762B1EEBCD0C004C32E8;
+			remoteInfo = ZYPwdAlertView;
+		};
+		206976541EEBCD0E004C32E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 206976241EEBCD0C004C32E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2069762B1EEBCD0C004C32E8;
+			remoteInfo = ZYPwdAlertView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2069762C1EEBCD0C004C32E8 /* ZYPwdAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYPwdAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		206976301EEBCD0D004C32E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		206976321EEBCD0D004C32E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		206976331EEBCD0D004C32E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		206976351EEBCD0D004C32E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		206976361EEBCD0D004C32E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		206976391EEBCD0D004C32E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2069763C1EEBCD0D004C32E8 /* ZYPwdAlertView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZYPwdAlertView.xcdatamodel; sourceTree = "<group>"; };
+		2069763E1EEBCD0E004C32E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		206976411EEBCD0E004C32E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		206976431EEBCD0E004C32E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		206976481EEBCD0E004C32E8 /* ZYPwdAlertViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYPwdAlertViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2069764C1EEBCD0E004C32E8 /* ZYPwdAlertViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYPwdAlertViewTests.m; sourceTree = "<group>"; };
+		2069764E1EEBCD0E004C32E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		206976531EEBCD0E004C32E8 /* ZYPwdAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYPwdAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		206976571EEBCD0F004C32E8 /* ZYPwdAlertViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYPwdAlertViewUITests.m; sourceTree = "<group>"; };
+		206976591EEBCD0F004C32E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		206976291EEBCD0C004C32E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		206976451EEBCD0E004C32E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		206976501EEBCD0E004C32E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		206976231EEBCD0C004C32E8 = {
+			isa = PBXGroup;
+			children = (
+				2069762E1EEBCD0D004C32E8 /* ZYPwdAlertView */,
+				2069764B1EEBCD0E004C32E8 /* ZYPwdAlertViewTests */,
+				206976561EEBCD0E004C32E8 /* ZYPwdAlertViewUITests */,
+				2069762D1EEBCD0C004C32E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2069762D1EEBCD0C004C32E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2069762C1EEBCD0C004C32E8 /* ZYPwdAlertView.app */,
+				206976481EEBCD0E004C32E8 /* ZYPwdAlertViewTests.xctest */,
+				206976531EEBCD0E004C32E8 /* ZYPwdAlertViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2069762E1EEBCD0D004C32E8 /* ZYPwdAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				206976321EEBCD0D004C32E8 /* AppDelegate.h */,
+				206976331EEBCD0D004C32E8 /* AppDelegate.m */,
+				206976351EEBCD0D004C32E8 /* ViewController.h */,
+				206976361EEBCD0D004C32E8 /* ViewController.m */,
+				206976381EEBCD0D004C32E8 /* Main.storyboard */,
+				2069763E1EEBCD0E004C32E8 /* Assets.xcassets */,
+				206976401EEBCD0E004C32E8 /* LaunchScreen.storyboard */,
+				206976431EEBCD0E004C32E8 /* Info.plist */,
+				2069763B1EEBCD0D004C32E8 /* ZYPwdAlertView.xcdatamodeld */,
+				2069762F1EEBCD0D004C32E8 /* Supporting Files */,
+			);
+			path = ZYPwdAlertView;
+			sourceTree = "<group>";
+		};
+		2069762F1EEBCD0D004C32E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				206976301EEBCD0D004C32E8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2069764B1EEBCD0E004C32E8 /* ZYPwdAlertViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				2069764C1EEBCD0E004C32E8 /* ZYPwdAlertViewTests.m */,
+				2069764E1EEBCD0E004C32E8 /* Info.plist */,
+			);
+			path = ZYPwdAlertViewTests;
+			sourceTree = "<group>";
+		};
+		206976561EEBCD0E004C32E8 /* ZYPwdAlertViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				206976571EEBCD0F004C32E8 /* ZYPwdAlertViewUITests.m */,
+				206976591EEBCD0F004C32E8 /* Info.plist */,
+			);
+			path = ZYPwdAlertViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2069762B1EEBCD0C004C32E8 /* ZYPwdAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2069765C1EEBCD0F004C32E8 /* Build configuration list for PBXNativeTarget "ZYPwdAlertView" */;
+			buildPhases = (
+				206976281EEBCD0C004C32E8 /* Sources */,
+				206976291EEBCD0C004C32E8 /* Frameworks */,
+				2069762A1EEBCD0C004C32E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYPwdAlertView;
+			productName = ZYPwdAlertView;
+			productReference = 2069762C1EEBCD0C004C32E8 /* ZYPwdAlertView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		206976471EEBCD0E004C32E8 /* ZYPwdAlertViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2069765F1EEBCD0F004C32E8 /* Build configuration list for PBXNativeTarget "ZYPwdAlertViewTests" */;
+			buildPhases = (
+				206976441EEBCD0E004C32E8 /* Sources */,
+				206976451EEBCD0E004C32E8 /* Frameworks */,
+				206976461EEBCD0E004C32E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2069764A1EEBCD0E004C32E8 /* PBXTargetDependency */,
+			);
+			name = ZYPwdAlertViewTests;
+			productName = ZYPwdAlertViewTests;
+			productReference = 206976481EEBCD0E004C32E8 /* ZYPwdAlertViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		206976521EEBCD0E004C32E8 /* ZYPwdAlertViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 206976621EEBCD0F004C32E8 /* Build configuration list for PBXNativeTarget "ZYPwdAlertViewUITests" */;
+			buildPhases = (
+				2069764F1EEBCD0E004C32E8 /* Sources */,
+				206976501EEBCD0E004C32E8 /* Frameworks */,
+				206976511EEBCD0E004C32E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				206976551EEBCD0E004C32E8 /* PBXTargetDependency */,
+			);
+			name = ZYPwdAlertViewUITests;
+			productName = ZYPwdAlertViewUITests;
+			productReference = 206976531EEBCD0E004C32E8 /* ZYPwdAlertViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		206976241EEBCD0C004C32E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = yao;
+				TargetAttributes = {
+					2069762B1EEBCD0C004C32E8 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = M4C7ZCQAKU;
+						ProvisioningStyle = Automatic;
+					};
+					206976471EEBCD0E004C32E8 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = M4C7ZCQAKU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2069762B1EEBCD0C004C32E8;
+					};
+					206976521EEBCD0E004C32E8 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = M4C7ZCQAKU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2069762B1EEBCD0C004C32E8;
+					};
+				};
+			};
+			buildConfigurationList = 206976271EEBCD0C004C32E8 /* Build configuration list for PBXProject "ZYPwdAlertView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 206976231EEBCD0C004C32E8;
+			productRefGroup = 2069762D1EEBCD0C004C32E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2069762B1EEBCD0C004C32E8 /* ZYPwdAlertView */,
+				206976471EEBCD0E004C32E8 /* ZYPwdAlertViewTests */,
+				206976521EEBCD0E004C32E8 /* ZYPwdAlertViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2069762A1EEBCD0C004C32E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				206976421EEBCD0E004C32E8 /* LaunchScreen.storyboard in Resources */,
+				2069763F1EEBCD0E004C32E8 /* Assets.xcassets in Resources */,
+				2069763A1EEBCD0D004C32E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		206976461EEBCD0E004C32E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		206976511EEBCD0E004C32E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		206976281EEBCD0C004C32E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2069763D1EEBCD0E004C32E8 /* ZYPwdAlertView.xcdatamodeld in Sources */,
+				206976371EEBCD0D004C32E8 /* ViewController.m in Sources */,
+				206976341EEBCD0D004C32E8 /* AppDelegate.m in Sources */,
+				206976311EEBCD0D004C32E8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		206976441EEBCD0E004C32E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2069764D1EEBCD0E004C32E8 /* ZYPwdAlertViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2069764F1EEBCD0E004C32E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				206976581EEBCD0F004C32E8 /* ZYPwdAlertViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2069764A1EEBCD0E004C32E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2069762B1EEBCD0C004C32E8 /* ZYPwdAlertView */;
+			targetProxy = 206976491EEBCD0E004C32E8 /* PBXContainerItemProxy */;
+		};
+		206976551EEBCD0E004C32E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2069762B1EEBCD0C004C32E8 /* ZYPwdAlertView */;
+			targetProxy = 206976541EEBCD0E004C32E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		206976381EEBCD0D004C32E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				206976391EEBCD0D004C32E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		206976401EEBCD0E004C32E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				206976411EEBCD0E004C32E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2069765A1EEBCD0F004C32E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2069765B1EEBCD0F004C32E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2069765D1EEBCD0F004C32E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M4C7ZCQAKU;
+				INFOPLIST_FILE = ZYPwdAlertView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzyPwdAlertView.www.ZYPwdAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2069765E1EEBCD0F004C32E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M4C7ZCQAKU;
+				INFOPLIST_FILE = ZYPwdAlertView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzyPwdAlertView.www.ZYPwdAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		206976601EEBCD0F004C32E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M4C7ZCQAKU;
+				INFOPLIST_FILE = ZYPwdAlertViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzyPwdAlertView.www.ZYPwdAlertViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYPwdAlertView.app/ZYPwdAlertView";
+			};
+			name = Debug;
+		};
+		206976611EEBCD0F004C32E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M4C7ZCQAKU;
+				INFOPLIST_FILE = ZYPwdAlertViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzyPwdAlertView.www.ZYPwdAlertViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYPwdAlertView.app/ZYPwdAlertView";
+			};
+			name = Release;
+		};
+		206976631EEBCD0F004C32E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = M4C7ZCQAKU;
+				INFOPLIST_FILE = ZYPwdAlertViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzyPwdAlertView.www.ZYPwdAlertViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZYPwdAlertView;
+			};
+			name = Debug;
+		};
+		206976641EEBCD0F004C32E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = M4C7ZCQAKU;
+				INFOPLIST_FILE = ZYPwdAlertViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzyPwdAlertView.www.ZYPwdAlertViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZYPwdAlertView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		206976271EEBCD0C004C32E8 /* Build configuration list for PBXProject "ZYPwdAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2069765A1EEBCD0F004C32E8 /* Debug */,
+				2069765B1EEBCD0F004C32E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2069765C1EEBCD0F004C32E8 /* Build configuration list for PBXNativeTarget "ZYPwdAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2069765D1EEBCD0F004C32E8 /* Debug */,
+				2069765E1EEBCD0F004C32E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2069765F1EEBCD0F004C32E8 /* Build configuration list for PBXNativeTarget "ZYPwdAlertViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				206976601EEBCD0F004C32E8 /* Debug */,
+				206976611EEBCD0F004C32E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		206976621EEBCD0F004C32E8 /* Build configuration list for PBXNativeTarget "ZYPwdAlertViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				206976631EEBCD0F004C32E8 /* Debug */,
+				206976641EEBCD0F004C32E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2069763B1EEBCD0D004C32E8 /* ZYPwdAlertView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2069763C1EEBCD0D004C32E8 /* ZYPwdAlertView.xcdatamodel */,
+			);
+			currentVersion = 2069763C1EEBCD0D004C32E8 /* ZYPwdAlertView.xcdatamodel */;
+			path = ZYPwdAlertView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 206976241EEBCD0C004C32E8 /* Project object */;
+}
